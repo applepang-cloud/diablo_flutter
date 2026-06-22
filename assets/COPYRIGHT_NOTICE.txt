@@ -1,0 +1,21 @@
+COPYRIGHT NOTICE — READ ME
+==========================
+
+If present, the PNG image files under:
+    assets/characters/   (player & monster sprite sheets)
+    assets/objects/      (barrel, coins, potions)
+
+are sprites EXTRACTED FROM DIABLO II, © Blizzard Entertainment, Inc.
+They are NOT my work and are NOT licensed for redistribution.
+
+They are used ONLY for personal, local, educational study of isometric
+rendering and sprite animation, and are EXCLUDED from version control
+(see .gitignore). The published repository ships NONE of these images —
+the game falls back to original vector art when they are absent.
+
+DO NOT commit, publish, deploy, or distribute these copyrighted images, or
+any build that bundles them. As a safeguard, a release/profile build that
+bundles them refuses to run (see distributionBlocked() in lib/main.dart).
+
+To make a distributable build, put YOUR OWN or open-licensed (CC0, etc.)
+art in these folders. See README.md for the swap guide.

@@ -1,0 +1,17 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.idea/
+
+# ===== COPYRIGHTED SPRITES — NEVER COMMIT / DISTRIBUTE =====
+# Diablo II art (© Blizzard) used for LOCAL LEARNING only. The folder
+# structure + READMEs are tracked so you know where to drop your own art,
+# but the image files themselves are excluded from the repo.
+assets/**/*.png
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.gif
