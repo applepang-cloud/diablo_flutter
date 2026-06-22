@@ -500,7 +500,7 @@ class _GameScreenState extends State<GameScreen>
   static const tileW = 64.0, tileH = 32.0;
   late Ticker _ticker;
   Duration _last = Duration.zero;
-  final rng = math.Random(7);
+  final rng = math.Random(); // unseeded: a fresh random dungeon every launch
 
   late Dungeon dungeon;
   late Player player;
